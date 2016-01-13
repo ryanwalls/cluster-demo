@@ -1,0 +1,16 @@
+servicea:
+  build: .
+  environment:
+    VERSION: "1.0"
+    PORT: "8282"
+  ports:
+    - "80:8282"
+  links:
+    - serviceb
+  command: service-a
+serviceb:
+  build: .
+  environment:
+    VERSION: "1.0"
+    PORT: "8383"
+  command: service-b

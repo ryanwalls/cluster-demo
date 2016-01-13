@@ -1,66 +1,48 @@
-hash: 0aef928901720fb97ee339b8f88b4fa5e70131b066dc8f88ffc603dc4a6e279a
-updated: 2016-01-13T11:00:54.885399512-07:00
+hash: e24a19f166e204f197e3fb51f4beaf047d0054c9e1c9ad510e483e8ecf4ce18e
+updated: 2016-01-13T11:12:31.553831903-07:00
 imports:
 - name: github.com/armon/consul-api
   version: dcfedd50ed5334f96adee43fc88518a4f095e15c
-  repo: https://github.com/armon/consul-api
 - name: github.com/BurntSushi/toml
   version: 5c4df71dfe9ac89ef6287afc05e4c1b16ae65a1e
-  repo: https://github.com/BurntSushi/toml
 - name: github.com/coreos/go-etcd
   version: 003851be7bb0694fe3cc457a49529a19388ee7cf
-  repo: https://github.com/coreos/go-etcd
 - name: github.com/cpuguy83/go-md2man
   version: 2724a9c9051aa62e9cca11304e7dd518e9e41599
 - name: github.com/hashicorp/hcl
   version: 197e8d3cf42199cfd53cd775deb37f3637234635
-  repo: https://github.com/hashicorp/hcl
 - name: github.com/kr/pretty
   version: e6ac2fc51e89a3249e82157fa0bb7a18ef9dd5bb
-  repo: https://github.com/kr/pretty
 - name: github.com/kr/pty
   version: f7ee69f31298ecbe5d2b349c711e2547a617d398
-  repo: https://github.com/kr/pty
 - name: github.com/kr/text
   version: bb797dc4fb8320488f47bf11de07a733d7233e1f
-  repo: https://github.com/kr/text
 - name: github.com/magiconair/properties
   version: c81f9d71af8f8cba1466501d30326b99a4e56c19
-  repo: https://github.com/magiconair/properties
 - name: github.com/mitchellh/mapstructure
   version: 281073eb9eb092240d33ef253c404f1cca550309
-  repo: https://github.com/mitchellh/mapstructure
 - name: github.com/russross/blackfriday
   version: c8875c0ed47e07b063c3628e2e4d4c9826721795
 - name: github.com/shurcooL/sanitized_anchor_name
   version: 10ef21a441db47d8b13ebcc5fd2310f636973c77
 - name: github.com/spf13/cast
   version: ee7b3e0353166ab1f3a605294ac8cd2b77953778
-  repo: https://github.com/spf13/cast
 - name: github.com/spf13/cobra
   version: 97f831a4fd01378ad85840fed4f43824bc3dd102
 - name: github.com/spf13/jwalterweatherman
   version: d00654080cddbd2b082acaa74007cb94a2b40866
-  repo: https://github.com/spf13/jwalterweatherman
 - name: github.com/spf13/pflag
   version: 7f60f83a2c81bc3c3c0d5297f61ddfa68da9d3b7
-  repo: https://github.com/spf13/pflag
 - name: github.com/spf13/viper
   version: a212099cbe6fbe8d07476bfda8d2d39b6ff8f325
-  repo: https://github.com/spf13/viper
 - name: github.com/ugorji/go
   version: 646ae4a518c1c3be0739df898118d9bccf993858
-  repo: https://github.com/ugorji/go
 - name: github.com/xordataexchange/crypt
   version: 749e360c8f236773f28fc6d3ddfce4a470795227
-  repo: https://github.com/xordataexchange/crypt
 - name: golang.org/x/crypto
   version: d67eb63455fa4d6fca5802332d86f1f204017e00
-  repo: https://golang.org/x/crypto
 - name: gopkg.in/fsnotify.v1
   version: 508915b7500b6e42a87132e4afeb4729cebc7cbb
-  repo: https://gopkg.in/fsnotify.v1
 - name: gopkg.in/yaml.v2
   version: f7716cbe52baa25d2e9b0d0da546fcf909fc16b4
-  repo: https://gopkg.in/yaml.v2
 devImports: []

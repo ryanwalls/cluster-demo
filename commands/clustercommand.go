@@ -8,7 +8,7 @@ import (
 
 // ClusterCmd is the root command
 var ClusterCmd = &cobra.Command{
-	Use: "cluster",
+	Use: "cluster-demo",
 }
 
 //Execute adds all child commands to the root command and sets flags appropriately.
@@ -22,6 +22,7 @@ func Execute() {
 
 func addCommands() {
 	ClusterCmd.AddCommand(serviceACmd)
+	ClusterCmd.AddCommand(serviceBCmd)
 }
 
 var serviceACmd = &cobra.Command{
@@ -38,6 +39,6 @@ var serviceBCmd = &cobra.Command{
 	Short: "Starts service B",
 	Long:  `Starts service B`,
 	Run: func(cmd *cobra.Command, args []string) {
-
+		services.StartServiceB()
 	},
 }
